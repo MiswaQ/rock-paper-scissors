@@ -23,6 +23,9 @@ window.onload = function introPage() {
     startGameShow2.style.visibility = 'hidden'
 }
 
+/**
+ * When Start Game is clicked what to show and what to hide
+ */
 function startGame() {
     playerImg.style.visibility = 'hidden';
     compImg.style.visibility = 'hidden';
@@ -30,5 +33,5 @@ function startGame() {
     
     startGameShow.style.visibility = 'visible';
     startGameShow2.style.visibility = 'visible';
-
 }
+
