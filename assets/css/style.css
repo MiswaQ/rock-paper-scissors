@@ -24,6 +24,9 @@ body {
     background-color: rgb(61, 3, 115);
 }
 
+.who-wins {
+    font-size: 70px;
+}
 /* play area placed in middle */
 .play-area {
     height: 50vh;
