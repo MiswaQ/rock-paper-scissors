@@ -9,10 +9,11 @@
     <title>Rock Paper Scissors!</title>
 </head>
 <body>
-    <!-- Header -->
-    <header>
+    
+    <div>
         <h1>Rock, Paper, Scissors!</h1>
-    </header>
+        <button class="intro">Start Game!</button>
+    </div>
     <!-- The game area -->
     <div class="game-area">
         <div>
@@ -23,18 +24,18 @@
             <div class="player">
                 <h2>Player</h2>
                 <div>
-                    <img id="player-img" src="assets/images/user-choise.png" alt="Rock Paper Scissors">
+                    <img class="intro" id="player-img" src="assets/images/user-choise.png" alt="Rock Paper Scissors">
                 </div>
             </div>
             <div class="computer">
                 <h2>Computer</h2>
                 <div>
-                    <img id="comp-img" src="assets/images/comp-choise.png" alt="Rock Paper Scissors">
+                    <img class="intro" id="comp-img" src="assets/images/comp-choise.png" alt="Rock Paper Scissors">
                 </div>
             </div>
         </div>
         <!-- Players three choices -->
-        <div class="play-options">
+        <div class="play-options hidden">
             <button data-type="rock" class="choice" data-choice="0">
                 <h3>Rock</h3>
             </button>
