@@ -11,7 +11,21 @@ const compImg = document.getElementById('comp-img')
 const playOptions = document.getElementsByClassName('play-options')
 const choice = document.getElementsByClassName('choice')
 const scoreArea = document.getElementsByClassName('score-area')
-const introShow = document.getElementsByClassName('intro')
-const startGameShow = document.getElementsByClassName('hidden')
+const introShow = document.getElementById('intro')
+const startGameShow = document.getElementById('hidden')
 
+/**
+ * on start dont show options rPs
+ */
+window.onload = function introPage() {
+    startGameShow.style.visibility = 'hidden';
+}
 
+function startGame() {
+    playerImg.style.visibility = 'hidden';
+    compImg.style.visibility = 'hidden';
+    introShow.style.visibility = 'hidden';
+    
+    startGameShow.style.visibility = 'visible';
+
+}

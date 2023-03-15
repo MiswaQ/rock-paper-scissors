@@ -161,11 +161,3 @@ button {
     
 }
 /* End of computer and player responsive */
-
-.hidden {
-    visibility: visible;
-}
-
-.intro {
-    visibility: hidden;
-}

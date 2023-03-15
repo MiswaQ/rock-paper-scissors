@@ -12,7 +12,7 @@
     
     <div>
         <h1>Rock, Paper, Scissors!</h1>
-        <button class="intro">Start Game!</button>
+        <button onclick="startGame()" id="intro">Start Game!</button>
     </div>
     <!-- The game area -->
     <div class="game-area">
@@ -35,7 +35,7 @@
             </div>
         </div>
         <!-- Players three choices -->
-        <div class="play-options hidden">
+        <div class="play-options" id="hidden">
             <button data-type="rock" class="choice" data-choice="0">
                 <h3>Rock</h3>
             </button>
