@@ -50,5 +50,29 @@ body {
     margin-top: 2vh;
 }
 
+/* button area same sizes, radius, and diferent colors */
+button {
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 5vh;
 
+}
+
+.rock {
+    background-color: rgb(237, 98, 144);
+    height: 50px;
+    width: 100px;
+}
+
+.paper {
+    background-color: rgb(43, 199, 199);
+    height: 50px;
+    width: 100px;
+}
+
+.scissors {
+    background-color: rgb(243, 243, 62);
+    height: 50px;
+    width: 100px;
+}
 
