@@ -87,6 +87,16 @@ button {
     background-color: rgb(243, 243, 62);
 }
 
+.player-score {
+    background-color: wheat;
+    color: rgb(3, 72, 3);
+}
+
+.comp-score {
+    background-color: wheat;
+    color: rgb(138, 5, 5);
+}
+
 /* buttons responsive */
 @media screen and (max-width: 388px) {
     button {
