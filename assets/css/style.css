@@ -34,45 +34,111 @@ body {
 
 /* player area placed to the right */
 .player {
-    height: 46vh;
+    height: 92%;
     width: 50%;
     background-color: rgb(3, 72, 3);
     float: right;
     margin-top: 2vh;
 }
 
+.player img {
+    height: 75%;
+    width: 75%;
+}
+
+
 /* computer area placed to the left */
 .computer {
-    height: 46vh;
+    height: 92%;
     width: 50%;
     background-color: rgb(138, 5, 5);
     float: left;
     margin-top: 2vh;
 }
 
+.computer img {
+    height: 75%;
+    width: 75%;
+}
+
 /* button area same sizes, radius, and diferent colors */
 button {
+    height: 50px;
+    width: 100px;
     border-radius: 5px;
     margin: 5px;
     margin-top: 5vh;
-
+    color: rgb(43, 36, 36);
+    
 }
 
 .rock {
     background-color: rgb(237, 98, 144);
-    height: 50px;
-    width: 100px;
 }
 
 .paper {
     background-color: rgb(43, 199, 199);
-    height: 50px;
-    width: 100px;
 }
 
 .scissors {
     background-color: rgb(243, 243, 62);
-    height: 50px;
-    width: 100px;
 }
 
+@media screen and (max-width: 388px) {
+    button {
+        height: 40px;
+        width: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 485px) {
+    .player img {
+        height: 95%;
+        width: 95%;
+    }
+
+    .computer img {
+        height: 95%;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .player img {
+        height: 55%;
+        width: 55%;
+    }
+
+    .computer img {
+        height: 55%;
+        width: 55%;
+    }
+    
+}
+
+@media screen and (min-width: 890px) {
+    .player img {
+        height: 45%;
+        width: 45%;
+    }
+
+    .computer img {
+        height: 45%;
+        width: 45%;
+    }
+    
+}
+
+@media screen and (min-width: 1080px) {
+    .player img {
+        height: 40%;
+        width: 40%;
+    }
+
+    .computer img {
+        height: 40%;
+        width: 40%;
+    }
+    
+}
