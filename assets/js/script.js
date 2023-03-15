@@ -16,7 +16,7 @@ const startGameShow = document.getElementById('hidden')
 const startGameShow2 = document.getElementById('hidden1')
 
 /**
- * on start dont show options rPs
+ * On start dont show options rPs
  */
 window.onload = function introPage() {
     startGameShow.style.visibility = 'hidden';
@@ -33,5 +33,17 @@ function startGame() {
     
     startGameShow.style.visibility = 'visible';
     startGameShow2.style.visibility = 'visible';
+}
+
+
+function handleRockSelection(event) {
+    
+    console.log('rocks clicked')
+// show rock picked
+    playerImg.setAttribute('src' , 'imgrock') 
+// computer choice
+// match the choices
+// anounce winner
+// add score
 }
 
