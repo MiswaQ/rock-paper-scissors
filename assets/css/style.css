@@ -90,11 +90,13 @@ button {
 .player-score {
     background-color: wheat;
     color: rgb(3, 72, 3);
+    width: 30%;
 }
 
 .comp-score {
     background-color: wheat;
     color: rgb(138, 5, 5);
+    width: 30%;
 }
 
 /* buttons responsive */
