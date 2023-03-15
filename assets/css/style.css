@@ -32,5 +32,23 @@ body {
     margin-top: 15vh;
 }
 
+/* player area placed to the right */
+.player {
+    height: 46vh;
+    width: 50%;
+    background-color: rgb(3, 72, 3);
+    float: right;
+    margin-top: 2vh;
+}
+
+/* computer area placed to the left */
+.computer {
+    height: 46vh;
+    width: 50%;
+    background-color: rgb(138, 5, 5);
+    float: left;
+    margin-top: 2vh;
+}
+
 
 
