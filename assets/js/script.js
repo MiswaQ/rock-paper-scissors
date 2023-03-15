@@ -13,12 +13,14 @@ const choice = document.getElementsByClassName('choice')
 const scoreArea = document.getElementsByClassName('score-area')
 const introShow = document.getElementById('intro')
 const startGameShow = document.getElementById('hidden')
+const startGameShow2 = document.getElementById('hidden1')
 
 /**
  * on start dont show options rPs
  */
 window.onload = function introPage() {
     startGameShow.style.visibility = 'hidden';
+    startGameShow2.style.visibility = 'hidden'
 }
 
 function startGame() {
@@ -27,5 +29,6 @@ function startGame() {
     introShow.style.visibility = 'hidden';
     
     startGameShow.style.visibility = 'visible';
+    startGameShow2.style.visibility = 'visible';
 
 }
