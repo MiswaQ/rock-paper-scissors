@@ -25,14 +25,14 @@ body {
 }
 
 .who-wins {
-    font-size: 70px;
+    font-size: 65px;
 }
 /* play area placed in middle */
 .play-area {
     height: 50vh;
     width: 100%;
     background-color: rgb(72, 48, 48);
-    margin-top: 15vh;
+    margin-top: 2vh;
 }
 
 /* player area placed to the right */
