@@ -84,6 +84,7 @@ button {
     background-color: rgb(243, 243, 62);
 }
 
+/* buttons responsive */
 @media screen and (max-width: 388px) {
     button {
         height: 40px;
@@ -92,6 +93,7 @@ button {
     
 }
 
+/* Start of computer and player img responsive */
 @media screen and (max-width: 485px) {
     .player img {
         height: 95%;
@@ -142,3 +144,4 @@ button {
     }
     
 }
+/* End of computer and player responsive */
