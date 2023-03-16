@@ -20,7 +20,7 @@ const startGameShow2 = document.getElementById('hidden1')
  */
 window.onload = function introPage() {
     startGameShow.style.visibility = 'hidden';
-    startGameShow2.style.visibility = 'hidden'
+    startGameShow2.style.visibility = 'hidden';
 }
 
 /**
