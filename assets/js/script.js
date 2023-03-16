@@ -42,13 +42,18 @@ function startGame() {
 for (let button of choice) {
     button.addEventListener('click', function () {
         let userChoice = this.getAttribute('data-type');
-        console.log(this);
+        gameOn(userChoice);
     });
 }
 
-
+/**
+ * 
+ * Generate computer response on userChoice
+ */
 function gameOn(userChoice) {
-    playerImg.src = `assets/images/${options[userChoice]}.png`
+    let compNumb = Math.floor(Math.random() * 3)
+    let compChoice = options[compNumb];
+    console.log(compChoice);
 }
 
 /*
