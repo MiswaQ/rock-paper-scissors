@@ -47,6 +47,7 @@ body {
 .player img {
     height: 75%;
     width: 75%;
+    transform: translateY(15%);
 }
 
 
@@ -62,6 +63,7 @@ body {
 .computer img {
     height: 75%;
     width: 75%;
+    transform: translateY(15%);
 }
 
 /* button area same sizes, radius, and diferent colors */
