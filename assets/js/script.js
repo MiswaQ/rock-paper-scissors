@@ -14,6 +14,7 @@ const scoreArea = document.getElementsByClassName('score-area')
 const introShow = document.getElementById('intro')
 const startGameShow = document.getElementById('hidden')
 const startGameShow2 = document.getElementById('hidden1')
+const options = ['rock', 'paper', 'scissors']
 
 /**
  * On start dont show options rPs
@@ -35,7 +36,22 @@ function startGame() {
     startGameShow2.style.visibility = 'visible';
 }
 
+/**
+ * EventListener for options
+ */
+for (let button of playOptions) {
+    button.addEventListener('click', function() {
+        let userChoice = this.getAttribute('data-choice');
+        gameOn(userChoice);
+    })
+}
 
+
+function gameOn(userChoice) {
+    playerImg.src = `assets/images/${options[userChoice]}.png`
+}
+
+/*
 function handleRockSelection(event) {
     
     console.log('rocks clicked')
@@ -46,4 +62,5 @@ function handleRockSelection(event) {
 // anounce winner
 // add score
 }
+*/
 
