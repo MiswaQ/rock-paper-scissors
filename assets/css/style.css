@@ -24,9 +24,7 @@ body {
     background-color: rgb(61, 3, 115);
 }
 
-.who-wins {
-    visibility: hidden;
-}
+
 /* play area placed in middle */
 .play-area {
     height: 50vh;

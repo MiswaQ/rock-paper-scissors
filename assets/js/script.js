@@ -2,7 +2,6 @@
  * Calling DOM for different options.
  */
 const gameArea = document.getElementsByClassName('game-area')
-const whoWins = document.getElementsByClassName('who-wins')
 const playArea = document.getElementsByClassName('play-area')
 const player = document.getElementsByClassName('player')
 const computer = document.getElementsByClassName('computer')
@@ -40,7 +39,7 @@ function startGame() {
  * EventListener for options
  */
 for (let button of choice) {
-    button.addEventListener('click', function () {
+    button.addEventListener('click', function() {
         let userChoice = this.getAttribute('data-type');
         gameOn(userChoice);
     });
@@ -53,8 +52,21 @@ for (let button of choice) {
 function gameOn(userChoice) {
     let compNumb = Math.floor(Math.random() * 3)
     let compChoice = options[compNumb];
-    console.log(compChoice);
 }
+
+/**
+ * Compare user and computer choice
+ */
+const compareUserComp = (userChoice, compChoice) => {
+    
+    const whoWins = document.querySelector('who-wins')
+
+    if (userChoice === compChoice) {
+        whoWins.textContent = 'It is a Draw!';
+        console.log('userChoice')
+    } // Continue on this next time!
+}
+
 
 /*
 function handleRockSelection(event) {
