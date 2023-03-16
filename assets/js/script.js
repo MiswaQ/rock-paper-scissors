@@ -39,11 +39,11 @@ function startGame() {
 /**
  * EventListener for options
  */
-for (let button of playOptions) {
-    button.addEventListener('click', function() {
-        let userChoice = this.getAttribute('data-choice');
-        gameOn(userChoice);
-    })
+for (let button of choice) {
+    button.addEventListener('click', function () {
+        let userChoice = this.getAttribute('data-type');
+        console.log(this);
+    });
 }
 
 
