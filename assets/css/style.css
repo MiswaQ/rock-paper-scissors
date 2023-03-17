@@ -45,7 +45,8 @@ body {
 .player img {
     height: 75%;
     width: 75%;
-    transform: translateY(15%);
+    margin-top: 6%;
+    transform: rotateY(180deg);
 }
 
 
@@ -61,7 +62,7 @@ body {
 .computer img {
     height: 75%;
     width: 75%;
-    transform: translateY(15%);
+    margin-top: 6%;
 }
 
 /* button area same sizes, radius, and different colors */
