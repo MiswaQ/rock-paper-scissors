@@ -27,7 +27,7 @@ window.onload = function introPage() {
  * When Start Game is clicked what to show and what to hide
  */
 function startGame() {
-    introShow.style.visibility = 'hidden';
+    introShow.style.display = 'none';
     startGameShow.style.visibility = 'visible';
     startGameShow2.style.visibility = 'visible';
 }

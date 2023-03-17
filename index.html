@@ -13,12 +13,12 @@
     
     <div>
         <h1>Rock, Paper, Scissors!</h1>
-        <button onclick="startGame()" id="intro">Start Game!</button>
+        <h2 id="who-wins">Who Wins?</h2>        
     </div>
     <!-- The game area -->
     <div class="game-area">
         <div>
-            <p id="who-wins"></p>
+            <br>
             <h2 id="hidden1">Chose an Option!</h2>
         </div>
         <!-- Player and Computers pictures -->
@@ -48,9 +48,16 @@
                 <h3>Scissors</h3>
             </button>
         </div>
+        <div>
+            <button onclick="startGame()" id="intro">
+                <h3>Start Game!</h3>
+            </button>
+        </div>
     </div>
     <div class="score-area">
+        <br>
         <p class="score">Player Score: <span id="play">0</span></p>
+        <br>
         <p class="score">Computer Score: <span id="comp">0</span></p>
     </div>
 
