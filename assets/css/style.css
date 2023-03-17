@@ -61,10 +61,6 @@ body {
     margin-top: 6%;
 }
 
-.img {
-    transform: translateY(20%);
-}
-
 /* button area same sizes, radius, and different colors */
 button {
     height: 50px;

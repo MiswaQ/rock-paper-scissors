@@ -55,8 +55,8 @@ function gameOn(userChoice) {
     console.log(compChoice)
 
     
-    playerImg.src = `./assets/images/${this.userChoice}.png`;
-    compImg.src = `./assets/images/${this.scissors}.png`;
+    playerImg.src = `./assets/images/${userChoice}.png`;
+    compImg.src = `./assets/images/${compChoice}.png`;
 }
 
 
