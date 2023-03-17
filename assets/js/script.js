@@ -41,7 +41,7 @@ for (let button of choice) {
         gameOn(userChoice);
         console.log(userChoice);
 
-        playerImg.src = `assets/images/${this.getAttribute}.png`;
+        
     });
 }
 
@@ -52,9 +52,13 @@ for (let button of choice) {
 function gameOn(userChoice) {
     let compNumb = Math.floor(Math.random() * 3)
     let compChoice = options[compNumb];
+    console.log(compChoice)
 
-    compImg.src = `assets/images/${this.compChoice}.png`;
+    
+    playerImg.src = `./assets/images/${this.userChoice}.png`;
+    compImg.src = `./assets/images/${this.scissors}.png`;
 }
+
 
 /**
  * Compare user and computer choice
