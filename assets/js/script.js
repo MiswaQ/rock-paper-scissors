@@ -53,9 +53,11 @@ function gameOn(userChoice) {
     let compNumb = Math.floor(Math.random() * 3)
     let compChoice = options[compNumb];
     console.log(compChoice)
-
+    
+    /* Write out draw, win or lose */
     compareUserComp(userChoice, compChoice);
 
+    /* Add player chosen img and computers chosen image */
     playerImg.src = `./assets/images/${userChoice}.png`;
     compImg.src = `./assets/images/${compChoice}.png`;
 }
@@ -68,6 +70,24 @@ const compareUserComp = (userChoice, compChoice) => {
     let whoWins = document.getElementById('who-wins')
     if (userChoice === compChoice) {
         whoWins.textContent = 'It is a Draw!';
+    }
+    if (userChoice === 'rock' && compChoice === 'scissors') {
+        whoWins.textContent = 'You Win!'
+    }
+    if (userChoice === 'rock' && compChoice === 'paper') {
+        whoWins.textContent = 'You Lose!'
+    }
+    if (userChoice === 'paper' && compChoice === 'scissors') {
+        whoWins.textContent = 'You Lose!'
+    }
+    if (userChoice === 'paper' && compChoice === 'rock') {
+        whoWins.textContent = 'You Win!'
+    }
+    if (userChoice === 'scissors' && compChoice === 'rock') {
+        whoWins.textContent = 'You Lose!'
+    }
+    if (userChoice === 'scissors' && compChoice === 'paper') {
+        whoWins.textContent = 'You Win!'
     }
 }
 
