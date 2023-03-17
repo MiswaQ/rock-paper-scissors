@@ -68,14 +68,14 @@ body {
 }
 
 /* button area same sizes, radius, and different colors */
-button {
+.play-options button {
     height: 50px;
     width: 100px;
     border-radius: 5px;
     margin: 5px;
     margin-top: 5vh;
     color: rgb(43, 36, 36);
-    
+    background-color: greenyellow;    
 }
 
 .rock {
@@ -88,6 +88,16 @@ button {
 
 .scissors {
     background-color: rgb(243, 243, 62);
+}
+
+/* Start button style */
+#intro {
+    height: 70px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 5px;
+    color: rgb(43, 36, 36);
+    background-color: greenyellow;
 }
 
 /* Score area */
