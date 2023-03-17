@@ -54,7 +54,8 @@ function gameOn(userChoice) {
     let compChoice = options[compNumb];
     console.log(compChoice)
 
-    
+    compareUserComp(userChoice, compChoice);
+
     playerImg.src = `./assets/images/${userChoice}.png`;
     compImg.src = `./assets/images/${compChoice}.png`;
 }
