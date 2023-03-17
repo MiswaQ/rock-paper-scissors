@@ -40,6 +40,8 @@ for (let button of choice) {
         let userChoice = this.getAttribute('data-type');
         gameOn(userChoice);
         console.log(userChoice);
+
+        playerImg.src = `assets/images/${this.getAttribute}.png`;
     });
 }
 
@@ -50,7 +52,8 @@ for (let button of choice) {
 function gameOn(userChoice) {
     let compNumb = Math.floor(Math.random() * 3)
     let compChoice = options[compNumb];
-    console.log(compChoice);
+
+    compImg.src = `assets/images/${this.compChoice}.png`;
 }
 
 /**
