@@ -28,7 +28,6 @@ window.onload = function introPage() {
  */
 function startGame() {
     introShow.style.visibility = 'hidden';
-    
     startGameShow.style.visibility = 'visible';
     startGameShow2.style.visibility = 'visible';
 }
@@ -40,6 +39,7 @@ for (let button of choice) {
     button.addEventListener('click', function() {
         let userChoice = this.getAttribute('data-type');
         gameOn(userChoice);
+        console.log(userChoice);
     });
 }
 
@@ -50,19 +50,17 @@ for (let button of choice) {
 function gameOn(userChoice) {
     let compNumb = Math.floor(Math.random() * 3)
     let compChoice = options[compNumb];
+    console.log(compChoice);
 }
 
 /**
  * Compare user and computer choice
  */
 const compareUserComp = (userChoice, compChoice) => {
-    
-    const whoWins = document.querySelector('who-wins')
-
+    let whoWins = document.getElementById('who-wins')
     if (userChoice === compChoice) {
         whoWins.textContent = 'It is a Draw!';
-        console.log('userChoice')
-    } // Continue on this next time!
+    }
 }
 
 
