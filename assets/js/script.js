@@ -14,6 +14,8 @@ const introShow = document.getElementById('intro')
 const startGameShow = document.getElementById('hidden')
 const startGameShow2 = document.getElementById('hidden1')
 const options = ['rock', 'paper', 'scissors']
+const userScore = document.getElementById('play')
+const compScore = document.getElementById('comp')
 
 /**
  * On start dont show options rPs
@@ -65,6 +67,7 @@ function gameOn(userChoice) {
 
 /**
  * Compare user and computer choice
+ * With incrementing to add point to score board
  */
 const compareUserComp = (userChoice, compChoice) => {
     let whoWins = document.getElementById('who-wins')
@@ -73,24 +76,34 @@ const compareUserComp = (userChoice, compChoice) => {
     }
     if (userChoice === 'rock' && compChoice === 'scissors') {
         whoWins.textContent = 'You Win!'
+        userScore.innerHTML = parseInt(userScore.innerHTML)+1;
     }
     if (userChoice === 'rock' && compChoice === 'paper') {
         whoWins.textContent = 'You Lose!'
+        compScore.innerHTML = parseInt(compScore.innerHTML)+1;
     }
     if (userChoice === 'paper' && compChoice === 'scissors') {
         whoWins.textContent = 'You Lose!'
+        compScore.innerHTML = parseInt(compScore.innerHTML)+1;
     }
     if (userChoice === 'paper' && compChoice === 'rock') {
         whoWins.textContent = 'You Win!'
+        userScore.innerHTML = parseInt(userScore.innerHTML)+1;
     }
     if (userChoice === 'scissors' && compChoice === 'rock') {
         whoWins.textContent = 'You Lose!'
+        compScore.innerHTML = parseInt(compScore.innerHTML)+1;
     }
     if (userChoice === 'scissors' && compChoice === 'paper') {
         whoWins.textContent = 'You Win!'
+        compScore.innerHTML = parseInt(compScore.innerHTML)+1;
     }
 }
 
+function scoreBoard() {
+    document.getElementById('play').innerHTML = '0';
+    document.getElementById('comp').innerHTML = '0';
+}
 
 /*
 function handleRockSelection(event) {
