@@ -95,23 +95,26 @@ body {
     height: 70px;
     width: 150px;
     border-radius: 5px;
-    margin: 5px;
     color: rgb(43, 36, 36);
     background-color: greenyellow;
+    transform: translateY(-10vh);
 }
 
 /* Score area */
-.player-score {
+.score-play {
     background-color: wheat;
     color: rgb(3, 72, 3);
-    width: 30%;
+    width: 100%;
+    text-align: left;
 }
 
-.comp-score {
+.score-comp {
     background-color: wheat;
     color: rgb(138, 5, 5);
-    width: 30%;
+    width: 100%;
+    text-align: left;
 }
+
 
 /* buttons responsive */
 @media screen and (max-width: 388px) {
