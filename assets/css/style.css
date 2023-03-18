@@ -115,14 +115,19 @@ body {
     text-align: center;
 }
 
+/* buttons responsive */
+@media screen and (max-width: 338px) {
+    #intro {
+        transform: translateY(-23vh);
+    }    
+}
 
 /* buttons responsive */
 @media screen and (max-width: 388px) {
     button {
         height: 40px;
         width: 80px;
-    }
-    
+    }    
 }
 
 /* Start of computer and player img responsive */
