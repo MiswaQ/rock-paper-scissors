@@ -8,7 +8,7 @@
 
 /* body making divs pile up on top of each other w flex/column */
 body {
-    background-color: rgb(3, 3, 114);
+    background-color: #263518;
     display: flex;
     flex-direction: column;
     font-family: 'Playfair Display SC', serif;
@@ -21,7 +21,7 @@ body {
 .game-area {
     height: 80vh;
     width: 100%;
-    background-color: rgb(61, 3, 115);
+    background-color: #171D10;
 }
 
 
@@ -35,7 +35,7 @@ body {
 .play-area {
     height: 50vh;
     width: 100%;
-    background-color: rgb(72, 48, 48);
+    background-color: #656100;
     margin-top: 2vh;
 }
 
@@ -43,7 +43,7 @@ body {
 .player {
     height: 92%;
     width: 50%;
-    background-color: rgb(3, 72, 3);
+    background-color: #7F9966;
     float: right;
     margin-top: 2vh;
 }
@@ -58,7 +58,7 @@ body {
 .computer {
     height: 92%;
     width: 50%;
-    background-color: rgb(138, 5, 5);
+    background-color: #7F9966;
     float: left;
     margin-top: 2vh;
 }
@@ -79,15 +79,15 @@ body {
 }
 
 #scissors {
-    background-color: rgb(217, 128, 158);
+    background-color: #f1baf4;
 }
 
 #paper {
-    background-color: rgb(43, 199, 199);
+    background-color: #00e0d5;
 }
 
 #rock {
-    background-color: rgb(243, 243, 62);
+    background-color: #ffe84a;
 }
 
 /* Start button style */
@@ -96,7 +96,7 @@ body {
     width: 150px;
     border-radius: 5px;
     color: rgb(43, 36, 36);
-    background-color: greenyellow;
+    background-color: #AFAF6A;
     transform: translateY(-10vh);
 }
 
@@ -105,14 +105,14 @@ body {
     background-color: wheat;
     color: rgb(3, 72, 3);
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 .score-comp {
     background-color: wheat;
     color: rgb(138, 5, 5);
     width: 100%;
-    text-align: left;
+    text-align: center;
 }
 
 
