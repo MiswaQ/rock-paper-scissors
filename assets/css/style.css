@@ -50,7 +50,7 @@ body {
 
 .player img {
     margin-top: 6%;
-    transform: scale(0.85) rotateY(180deg);
+    transform: scale(0.85) rotateY(180deg) translateY(-5vh);
 }
 
 
@@ -65,7 +65,7 @@ body {
 
 .computer img {
     margin-top: 6%;
-    transform: scale(0.85);
+    transform: scale(0.85) translateY(-5vh);
 }
 
 /* button area same sizes, radius, and different colors */
@@ -76,18 +76,34 @@ body {
     margin: 5px;
     margin-top: 5vh;
     color: rgb(43, 36, 36);
+    cursor: pointer;
 }
 
 #scissors {
     background-color: #f1baf4;
+    cursor: pointer;
+}
+#scissors:hover {
+    background-color: #f1baf099;
+    transform: translate3d(0px, -4px, 0px);
 }
 
 #paper {
     background-color: #00e0d5;
+    cursor: pointer;
+}
+#paper:hover {
+    background-color: #026e69;
+    transform: translate3d(0px, -4px, 0px);
 }
 
 #rock {
     background-color: #ffe84a;
+    cursor: pointer;
+}
+#rock:hover {
+    background-color: #828202b8;
+    transform: translate3d(0px, -4px, 0px);
 }
 
 /* Start button style */
@@ -98,6 +114,11 @@ body {
     color: rgb(43, 36, 36);
     background-color: #AFAF6A;
     transform: translateY(-10vh);
+    cursor: pointer;
+}
+#intro:hover {
+    background-color: #7caf6a;
+    transform: translate3d(0px, -71px, 0px);
 }
 
 /* Score area */
@@ -115,6 +136,15 @@ body {
     text-align: center;
 }
 
+/* Hide on start beacause onload in js shows a short millisec */
+
+#hidden {
+    visibility: hidden;
+}
+
+#hidden1 {
+    visibility: hidden;
+}
 /* buttons responsive */
 @media screen and (max-width: 338px) {
     #intro {

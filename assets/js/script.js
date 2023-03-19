@@ -1,29 +1,17 @@
 /**
  * Calling DOM for different options.
  */
-const gameArea = document.getElementsByClassName('game-area')
-const playArea = document.getElementsByClassName('play-area')
-const player = document.getElementsByClassName('player')
-const computer = document.getElementsByClassName('computer')
 const playerImg = document.getElementById('player-img')
 const compImg = document.getElementById('comp-img')
-const playOptions = document.getElementsByClassName('play-options')
 const choice = document.getElementsByClassName('choice')
-const scoreArea = document.getElementsByClassName('score-area')
 const introShow = document.getElementById('intro')
-const startGameShow = document.getElementById('hidden')
-const startGameShow2 = document.getElementById('hidden1')
+const startGameShow = document.getElementById('hidden') // revisit
+const startGameShow2 = document.getElementById('hidden1') // revisit
 const options = ['rock', 'paper', 'scissors']
 const userScore = document.getElementById('play')
 const compScore = document.getElementById('comp')
 
-/**
- * On start dont show options rPs
- */
-window.onload = function introPage() {
-    startGameShow.style.visibility = 'hidden';
-    startGameShow2.style.visibility = 'hidden';
-}
+
 
 /**
  * When Start Game is clicked what to show and what to hide
@@ -96,7 +84,7 @@ const compareUserComp = (userChoice, compChoice) => {
     }
     if (userChoice === 'scissors' && compChoice === 'paper') {
         whoWins.textContent = 'You Win!'
-        compScore.innerHTML = parseInt(compScore.innerHTML)+1;
+        userScore.innerHTML = parseInt(userScore.innerHTML)+1;
     }
 }
 
