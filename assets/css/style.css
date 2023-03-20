@@ -138,11 +138,11 @@ body {
 
 /* Hide on start beacause onload in js shows a short millisec */
 
-#hidden {
+#statement {
     visibility: hidden;
 }
 
-#hidden1 {
+#hide-choice {
     visibility: hidden;
 }
 /* buttons responsive */

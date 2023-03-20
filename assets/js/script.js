@@ -1,22 +1,22 @@
 /**
  * Calling DOM for different options.
  */
-const playerImg = document.getElementById('player-img')
-const compImg = document.getElementById('comp-img')
-const choice = document.getElementsByClassName('choice')
-const introShow = document.getElementById('intro')
-const startGameShow = document.getElementById('hidden') // revisit
-const startGameShow2 = document.getElementById('hidden1') // revisit
-const options = ['rock', 'paper', 'scissors']
-const userScore = document.getElementById('play')
-const compScore = document.getElementById('comp')
+const playerImg = document.getElementById('player-img');
+const compImg = document.getElementById('comp-img');
+const choice = document.getElementsByClassName('choice');
+const introShow = document.getElementById('intro');
+const startGameShow = document.getElementById('hide-choice');
+const startGameShow2 = document.getElementById('statement');
+const options = ['rock', 'paper', 'scissors'];
+const userScore = document.getElementById('play');
+const compScore = document.getElementById('comp');
 
 
 
 /**
  * When Start Game is clicked what to show and what to hide
  */
-function startGame() {
+function onStart() {
     introShow.style.display = 'none';
     startGameShow.style.visibility = 'visible';
     startGameShow2.style.visibility = 'visible';
@@ -40,11 +40,11 @@ for (let button of choice) {
  * Generate computer response on userChoice
  */
 function gameOn(userChoice) {
-    let compNumb = Math.floor(Math.random() * 3)
+    let compNumb = Math.floor(Math.random() * 3);
     let compChoice = options[compNumb];
-    console.log(compChoice)
+    console.log(compChoice);
     
-    /* Write out draw, win or lose */
+    /* Compare to see what img to show */
     compareUserComp(userChoice, compChoice);
 
     /* Add player chosen img and computers chosen image */
@@ -54,45 +54,74 @@ function gameOn(userChoice) {
 
 
 /**
- * Compare user and computer choice
- * With incrementing to add point to score board
+ * Compare user and computer choice.
+ * Decide who wins or if draw and write it out.
+ * With incrementing add point to winner.
  */
 const compareUserComp = (userChoice, compChoice) => {
-    let whoWins = document.getElementById('who-wins')
+    let whoWins = document.getElementById('who-wins');
     if (userChoice === compChoice) {
+
+        /* If draw no point to incerment */
+        /* Writes out in #who-wins 'It is a Draw' */
         whoWins.textContent = 'It is a Draw!';
     }
     if (userChoice === 'rock' && compChoice === 'scissors') {
-        whoWins.textContent = 'You Win!'
+
+        /* Writes out in #who-wins 'You Win!' */
+        whoWins.textContent = 'You Win!';
+
+        /* Incrementing points to user +1 */
         userScore.innerHTML = parseInt(userScore.innerHTML)+1;
     }
     if (userChoice === 'rock' && compChoice === 'paper') {
-        whoWins.textContent = 'You Lose!'
+        
+        /* Writes out in #who-wins 'You Lose!' */
+        whoWins.textContent = 'You Lose!';
+        
+        /* Incrementing points to comp +1 */
         compScore.innerHTML = parseInt(compScore.innerHTML)+1;
     }
     if (userChoice === 'paper' && compChoice === 'scissors') {
-        whoWins.textContent = 'You Lose!'
+        
+        /* Writes out in #who-wins 'You Lose!' */
+        whoWins.textContent = 'You Lose!';
+        
+        /* Incrementing points to comp +1 */
         compScore.innerHTML = parseInt(compScore.innerHTML)+1;
     }
     if (userChoice === 'paper' && compChoice === 'rock') {
-        whoWins.textContent = 'You Win!'
+        
+        /* Writes out in #who-wins 'You Win!' */
+        whoWins.textContent = 'You Win!';
+        
+        /* Incrementing points to user +1 */
         userScore.innerHTML = parseInt(userScore.innerHTML)+1;
     }
     if (userChoice === 'scissors' && compChoice === 'rock') {
-        whoWins.textContent = 'You Lose!'
+        
+        /* Writes out in #who-wins 'You Lose!' */
+        whoWins.textContent = 'You Lose!';
+        
+        /* Incrementing points to comp +1 */
         compScore.innerHTML = parseInt(compScore.innerHTML)+1;
     }
     if (userChoice === 'scissors' && compChoice === 'paper') {
-        whoWins.textContent = 'You Win!'
+        
+        /* Writes out in #who-wins 'You Win!' */
+        whoWins.textContent = 'You Win!';
+        
+        /* Incrementing points to user +1 */
         userScore.innerHTML = parseInt(userScore.innerHTML)+1;
     }
-}
+};
 
+/*
 function scoreBoard() {
     document.getElementById('play').innerHTML = '0';
     document.getElementById('comp').innerHTML = '0';
 }
-
+*
 /*
 function handleRockSelection(event) {
     
