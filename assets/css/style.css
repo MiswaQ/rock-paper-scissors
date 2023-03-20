@@ -145,6 +145,7 @@ body {
 #hide-choice {
     visibility: hidden;
 }
+
 /* buttons responsive */
 @media screen and (max-width: 338px) {
     #intro {
@@ -152,63 +153,139 @@ body {
     }    
 }
 
-/* buttons responsive */
+/* buttons responsive 
 @media screen and (max-width: 388px) {
     button {
         height: 40px;
         width: 80px;
     }    
 }
+*/
 
 /* Start of computer and player img responsive */
-@media screen and (max-width: 485px) {
-    .player img {
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+
+    .respons-img {
         height: 95%;
         width: 95%;
+        padding-top: 70px;
     }
 
-    .computer img {
+    .play-options button {
+        height: 40px;
+        width: 70px;
+    }
+
+    #intro {
+        transform: translateY(-12vh);
+    }    
+}
+
+
+@media screen and (min-width: 375px) {
+    body {
+        font-size: 12px;
+    }
+
+    .respons-img {
         height: 95%;
         width: 95%;
+        padding-top: 65px;
     }
+
+    .play-options button {
+        height: 40px;
+        width: 70px;
+    }
+
+    #intro {
+        transform: translateY(-11vh);
+    }    
 }
 
-@media screen and (min-width: 650px) {
-    .player img {
-        height: 55%;
-        width: 55%;
+@media screen and (min-width: 425px) {
+    body {
+        font-size: 12px;
     }
 
-    .computer img {
-        height: 55%;
-        width: 55%;
+    .respons-img {
+        height: 95%;
+        width: 95%;
+        padding-top: 50px;
     }
-    
+
+    .play-options button {
+        height: 40px;
+        width: 70px;
+    }
+
+    #intro {
+        transform: translateY(-11vh);
+    }    
 }
 
-@media screen and (min-width: 890px) {
-    .player img {
-        height: 45%;
-        width: 45%;
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 12px;
     }
 
-    .computer img {
-        height: 45%;
-        width: 45%;
+    .respons-img {
+        height: 60%;
+        width: 60%;
+        padding-top: 30px;
     }
-    
+
+    .play-options button {
+        height: 40px;
+        width: 70px;
+    }
+
+    #intro {
+        transform: translateY(-11vh);
+    }    
 }
 
-@media screen and (min-width: 1080px) {
-    .player img {
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 12px;
+    }
+
+    .respons-img {
+        height: 50%;
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .play-options button {
+        height: 40px;
+        width: 70px;
+    }
+
+    #intro {
+        transform: translateY(-11vh);
+    }    
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        font-size: 16px;
+    }
+
+    .respons-img {
         height: 40%;
         width: 40%;
+        padding-top: 10px;
     }
 
-    .computer img {
-        height: 40%;
-        width: 40%;
+    .play-options button {
+        height: 40px;
+        width: 70px;
     }
-    
+
+    #intro {
+        transform: translateY(-11vh);
+    }    
 }
-/* End of computer and player responsive */
