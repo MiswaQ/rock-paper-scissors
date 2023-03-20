@@ -115,23 +115,3 @@ const compareUserComp = (userChoice, compChoice) => {
         userScore.innerHTML = parseInt(userScore.innerHTML)+1;
     }
 };
-
-/*
-function scoreBoard() {
-    document.getElementById('play').innerHTML = '0';
-    document.getElementById('comp').innerHTML = '0';
-}
-*
-/*
-function handleRockSelection(event) {
-    
-    console.log('rocks clicked')
-// show rock picked
-    playerImg.setAttribute('src' , 'imgrock') 
-// computer choice
-// match the choices
-// anounce winner
-// add score
-}
-*/
-
