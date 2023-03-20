@@ -24,7 +24,6 @@ body {
     background-color: #171D10;
 }
 
-
 /* Anouncement who wins */
 #who-wins {
     font-size: 4vh;
@@ -83,6 +82,7 @@ body {
     background-color: #f1baf4;
     cursor: pointer;
 }
+
 #scissors:hover {
     background-color: #f1baf099;
     transform: translate3d(0px, -4px, 0px);
@@ -92,6 +92,7 @@ body {
     background-color: #00e0d5;
     cursor: pointer;
 }
+
 #paper:hover {
     background-color: #026e69;
     transform: translate3d(0px, -4px, 0px);
@@ -101,6 +102,7 @@ body {
     background-color: #ffe84a;
     cursor: pointer;
 }
+
 #rock:hover {
     background-color: #828202b8;
     transform: translate3d(0px, -4px, 0px);
@@ -116,6 +118,7 @@ body {
     transform: translateY(-10vh);
     cursor: pointer;
 }
+
 #intro:hover {
     background-color: #7caf6a;
     transform: translate3d(0px, -71px, 0px);
@@ -146,23 +149,7 @@ body {
     visibility: hidden;
 }
 
-/* buttons responsive */
-@media screen and (max-width: 338px) {
-    #intro {
-        transform: translateY(-23vh);
-    }    
-}
-
-/* buttons responsive 
-@media screen and (max-width: 388px) {
-    button {
-        height: 40px;
-        width: 80px;
-    }    
-}
-*/
-
-/* Start of computer and player img responsive */
+/* Start of responsive */
 @media screen and (max-width: 320px) {
     body {
         font-size: 12px;
@@ -181,7 +168,7 @@ body {
 
     #intro {
         transform: translateY(-12vh);
-    }    
+    }
 }
 
 
@@ -203,7 +190,7 @@ body {
 
     #intro {
         transform: translateY(-11vh);
-    }    
+    }
 }
 
 @media screen and (min-width: 425px) {
@@ -224,7 +211,7 @@ body {
 
     #intro {
         transform: translateY(-11vh);
-    }    
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -245,7 +232,7 @@ body {
 
     #intro {
         transform: translateY(-11vh);
-    }    
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -266,7 +253,7 @@ body {
 
     #intro {
         transform: translateY(-11vh);
-    }    
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -287,5 +274,6 @@ body {
 
     #intro {
         transform: translateY(-11vh);
-    }    
+    }
 }
+/* End of responsive */
