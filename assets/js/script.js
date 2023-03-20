@@ -1,43 +1,39 @@
 /**
- * Calling DOM for different options.
+ * Calling DOM for different tasks.
  */
 const playerImg = document.getElementById('player-img');
 const compImg = document.getElementById('comp-img');
 const choice = document.getElementsByClassName('choice');
 const introShow = document.getElementById('intro');
 const startGameShow = document.getElementById('hide-choice');
-const startGameShow2 = document.getElementById('statement');
+const startGameShow1 = document.getElementById('statement');
 const options = ['rock', 'paper', 'scissors'];
 const userScore = document.getElementById('play');
 const compScore = document.getElementById('comp');
 
-
-
 /**
- * When Start Game is clicked what to show and what to hide
+ * When 'Start Game' is clicked what to show and what to hide.
  */
 function onStart() {
     introShow.style.display = 'none';
     startGameShow.style.visibility = 'visible';
-    startGameShow2.style.visibility = 'visible';
+    startGameShow1.style.visibility = 'visible';
 }
 
 /**
- * EventListener for options
+ * EventListener for options.
  */
 for (let button of choice) {
     button.addEventListener('click', function() {
         let userChoice = this.getAttribute('data-type');
         gameOn(userChoice);
         console.log(userChoice);
-
-        
     });
 }
 
 /**
  * 
- * Generate computer response on userChoice
+ * Generate computer response on userChoice.
  */
 function gameOn(userChoice) {
     let compNumb = Math.floor(Math.random() * 3);
@@ -52,17 +48,16 @@ function gameOn(userChoice) {
     compImg.src = `./assets/images/${compChoice}.png`;
 }
 
-
 /**
  * Compare user and computer choice.
  * Decide who wins or if draw and write it out.
- * With incrementing add point to winner.
+ * With incrementing add score to winner.
  */
 const compareUserComp = (userChoice, compChoice) => {
     let whoWins = document.getElementById('who-wins');
     if (userChoice === compChoice) {
 
-        /* If draw no point to incerment */
+        /* If draw no score to incerment */
         /* Writes out in #who-wins 'It is a Draw' */
         whoWins.textContent = 'It is a Draw!';
     }

@@ -1,36 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display+SC:wght@900&display=swap');
 
+/* Start html with margin, padding 0 and no border. And add later on the ones you need to. */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
-/* body making divs pile up on top of each other w flex/column */
+/* Body making divs pile up on top of each other w flex/column. */
 body {
     background-color: #263518;
     display: flex;
     flex-direction: column;
     font-family: 'Playfair Display SC', serif;
-    font-size: 90;
+    font-size: 16px;
     text-align: center;
     color: wheat;
 }
 
-/* game area sizing to fit player computer and choice inside */
+/* Game area sizing to fit player computer and choice inside. */
 .game-area {
     height: 80vh;
     width: 100%;
     background-color: #171D10;
 }
 
-/* Anouncement who wins */
+/* Anouncement who wins. */
 #who-wins {
     font-size: 4vh;
     transform: translateY(10%);
 }
 
-/* play area placed in middle */
+/* Player and Computer divs will be inside here. */
 .play-area {
     height: 50vh;
     width: 100%;
@@ -38,7 +39,7 @@ body {
     margin-top: 2vh;
 }
 
-/* player area placed to the right */
+/* Player area float to the right. With player img inside. */
 .player {
     height: 92%;
     width: 50%;
@@ -53,7 +54,7 @@ body {
 }
 
 
-/* computer area placed to the left */
+/* Computer area float to the left. With computer img inside. */
 .computer {
     height: 92%;
     width: 50%;
@@ -67,7 +68,7 @@ body {
     transform: scale(0.85) translateY(-5vh);
 }
 
-/* button area same sizes, radius, and different colors */
+/* button area same sizes, radius, hovering and different colors. */
 .play-options button {
     height: 50px;
     width: 100px;
@@ -108,7 +109,7 @@ body {
     transform: translate3d(0px, -4px, 0px);
 }
 
-/* Start button style */
+/* Start button style and hovering. */
 #intro {
     height: 70px;
     width: 150px;
@@ -124,7 +125,7 @@ body {
     transform: translate3d(0px, -71px, 0px);
 }
 
-/* Score area */
+/* Score area. */
 .score-play {
     background-color: wheat;
     color: rgb(3, 72, 3);
@@ -139,8 +140,7 @@ body {
     text-align: center;
 }
 
-/* Hide on start beacause onload in js shows a short millisec */
-
+/* Hide on start beacause onload in js shows this for a short millisec */
 #statement {
     visibility: hidden;
 }
