@@ -124,47 +124,6 @@ Chose a slitely different one to get some variety.
 <br>
 <br>
 
-
-
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### Colors chosen for this page are..
 ![Chosen colors on the page.](/assets/images/readmimg/chosencollor.png)
 <br>
