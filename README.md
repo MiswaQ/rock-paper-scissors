@@ -22,5 +22,22 @@ Good luck and have fun!
 <br>
 <br>
 
-## Am I Responsive!
+#### Am I Responsive!
 ![Screenshot of Am I Responsive page.](/assets/images/readmimg/amiresponsive.png)
+<br>
+This is a glance of the game in Am I Responsive so that the user can see what it looks like in different platforms.
+<br>
+<br>
+
+## Features!
+<br>
+<br>
+
+#### Colors chosen for this page are..
+![Chosen colors on the page.](/assets/images/readmimg/chosencollor.png)
+<br>
+I chose this colors so that there is a darker theam in the background while there is a colorful game on top.
+<br>
+<br>
+
+
