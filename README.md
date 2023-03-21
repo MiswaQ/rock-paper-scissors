@@ -40,6 +40,23 @@ This is a glance of the game in Am I Responsive so that the user can see what it
 Once you enter the page you will come to see this img above.
 <br>
 On the top you will see Rock Paper Scissors! only and in the middle it shows <br> the default stands between the player and the computer with Rock icons.
+<br>
+<br>
+
+###### Start Button!
+
+![Screenshot of the Start button](/assets/images/readmimg/startbutton.png)
+<br>
+
+This Start button is responsive and the color changed when hovering over it.<br>
+and ones clicked the game will start!
+<br>
+<br>
+
+
+
+
+
 
 <br>
 <br>
