@@ -18,3 +18,9 @@ always will chose random.
 
 Try it and hope you enjoy visiting this site and playing this game.
 Good luck and have fun!
+<br>
+<br>
+<br>
+
+## Am I Responsive!
+![Screenshot of Am I Responsive page.](/assets/images/readmimg/amiresponsive.png)
