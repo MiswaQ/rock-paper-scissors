@@ -86,7 +86,7 @@ body {
 
 #scissors:hover {
     background-color: #f1baf099;
-    transform: translate3d(0px, -4px, 0px);
+    transform: translate3d(0px, -1.5px, 0px);
 }
 
 #paper {
@@ -96,7 +96,7 @@ body {
 
 #paper:hover {
     background-color: #026e69;
-    transform: translate3d(0px, -4px, 0px);
+    transform: translate3d(0px, -1.5px, 0px);
 }
 
 #rock {
@@ -106,7 +106,7 @@ body {
 
 #rock:hover {
     background-color: #828202b8;
-    transform: translate3d(0px, -4px, 0px);
+    transform: translate3d(0px, -1.5px, 0px);
 }
 
 /* Start button style and hovering. */
@@ -122,7 +122,6 @@ body {
 
 #intro:hover {
     background-color: #7caf6a;
-    transform: translate3d(0px, -71px, 0px);
 }
 
 /* Score area. */
