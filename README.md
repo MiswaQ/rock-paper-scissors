@@ -1,6 +1,6 @@
 # Rock Paper Scissors!
 
-Greetings and welcome to my Rock Paper Scissors game.
+Greetings and welcome to my [Rock Paper Scissors](https://miswaq.github.io/rock-paper-scissors/) game.
 This is a fun game to play if you are interested in playing
 a totaly random game against a computer.
 When we play rock paper scissors with friends and family.
