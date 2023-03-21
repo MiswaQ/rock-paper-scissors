@@ -101,7 +101,18 @@ And points will be added accordingly down in the score board.
 <br>
 <br>
 
+##### The weponse Rock Paper Scissors!
 
+![Screenshot of Rock!](/assets/images/rock.png)
+![Screenshot of Paper!](/assets/images/paper.png)
+![Screenshot of Scissors!](/assets/images/scissors.png)
+<br>
+
+When the choice has been made one of these three imgs will appare.<br>
+The user and computer both uses both the same imgs.<br>
+But in css its made that one apponent will have a mirroring hand.
+<br>
+<br>
 
 
 
