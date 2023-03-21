@@ -86,6 +86,20 @@ And in responce wo the choice the computer will chose randomly the wepon it chos
 <br>
 <br>
 
+##### Win, Lose or Draw!
+
+![Screenshot of the choices](/assets/images/readmimg/win.png)
+<br>
+![Screenshot of the choices](/assets/images/readmimg/lose.png)
+<br>
+![Screenshot of the choices](/assets/images/readmimg/draw.png)
+<br>
+
+Ones the decision has been made the player will see one of these text.<br>
+And know if the user won lost or it was a draw.<br>
+And points will be added accordingly down in the score board.
+<br>
+<br>
 
 
 
