@@ -114,6 +114,16 @@ But in css its made that one apponent will have a mirroring hand.
 <br>
 <br>
 
+##### Favicon!
+
+![Screenshot of Favicon!](/assets/images/favicon.ico)
+<br>
+
+As favicon on the page tab I have chosen to have the scissors hand.<br>
+Chose a slitely different one to get some variety.
+<br>
+<br>
+
 
 
 
