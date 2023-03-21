@@ -53,6 +53,17 @@ and ones clicked the game will start!
 <br>
 <br>
 
+##### Score board!
+
+![Screenshot of the score board](/assets/images/readmimg/score.png)
+<br>
+
+This is the score board where the user will see his/her score during the game.
+User 1 point for win Comp 1 point for lose and no points on draw.
+<br>
+<br>
+
+
 
 
 
