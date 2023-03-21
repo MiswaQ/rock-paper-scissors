@@ -63,6 +63,16 @@ User 1 point for win Comp 1 point for lose and no points on draw.
 <br>
 <br>
 
+##### Game has started!
+
+![Screenshot of the game start page](/assets/images/readmimg/ingame.png)
+<br>
+
+When the game start on the top now under the header text Rock Paper Scissors <br>
+the text Chose an Option has appared. And now everything is starting. And the Start Game button is gone!
+<br>
+<br>
+
 
 
 
