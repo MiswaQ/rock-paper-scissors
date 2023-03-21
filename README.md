@@ -33,6 +33,49 @@ This is a glance of the game in Am I Responsive so that the user can see what it
 <br>
 <br>
 
+#### First Page!
+![Screenshot first page.](/assets/images/readmimg/startpage.png)
+<br>
+
+Once you enter the page you will come to see this img above.
+<br>
+On the top you will see Rock Paper Scissors! only and in the middle it shows <br> the default stands between the player and the computer with Rock icons.
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Colors chosen for this page are..
 ![Chosen colors on the page.](/assets/images/readmimg/chosencollor.png)
 <br>
