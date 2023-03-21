@@ -43,7 +43,7 @@ On the top you will see Rock Paper Scissors! only and in the middle it shows <br
 <br>
 <br>
 
-###### Start Button!
+##### Start Button!
 
 ![Screenshot of the Start button](/assets/images/readmimg/startbutton.png)
 <br>
@@ -72,6 +72,22 @@ When the game start on the top now under the header text Rock Paper Scissors <br
 the text Chose an Option has appared. And now everything is starting. And the Start Game button is gone!
 <br>
 <br>
+
+##### The three choices you can do!
+
+![Screenshot of the choices](/assets/images/readmimg/choices.png)
+<br>
+
+Now the user will have the tree choices to make of. Rock Paper and Scissors.<br>
+This buttons are responsive to the hovering and clicking of the user.<br>
+When hovering the buttons moves slitely and changes color to look like a 3d apparence.<br>
+If one of the choices are made the responce will be seen above the buttons.<br>
+And in responce wo the choice the computer will chose randomly the wepon it choses.
+<br>
+<br>
+
+
+
 
 
 
