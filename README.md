@@ -2,19 +2,19 @@
 
 Greetings and welcome to my [Rock Paper Scissors](https://miswaq.github.io/rock-paper-scissors/) game.
 This is a fun game to play if you are interested in playing
-a totaly random game against a computer.
+a totally random game against a computer.
 When we play rock paper scissors with friends and family.
 The randomness will actually never be there.
-As playing against another person there is different strategies
+As playing against another person there are different strategies
 thoughts and impulses that removes the randomness.
 But playing a computer that only follows total randomness.
 
 I can give you an example:
-If you would play a friend and you on each try would chose rock.
-The apponent would ofc just chose paper and always win.
+If you would play a friend and you on each try would choose rock.
+The opponent would ofc just chose paper and always win.
 But against a computer if you would continue to only chose rock
-you would actually never know what the computer will chose as it
-always will chose random.
+you would actually never know what the computer will choose as it
+will always chose random.
 <br>
 <br>
 
@@ -71,7 +71,7 @@ and ones clicked the game will start!
 <br>
 
 This is the score board where the user will see his/her score during the game.
-One point for the winner, a point to apponent if one looses and no points on draw.
+One point for the winner, a point to opponent if one looses and no points on draw.
 <br>
 <br>
 
@@ -81,7 +81,7 @@ One point for the winner, a point to apponent if one looses and no points on dra
 <br>
 
 When the game start on the top now under the header text Rock Paper Scissors <br>
-the text Chose an Option has appared. And now everything is starting. And the Start Game button is gone!
+the text Chose an Option has appeared. And now everything is starting. And the Start Game button is gone!
 <br>
 <br>
 
@@ -92,9 +92,9 @@ the text Chose an Option has appared. And now everything is starting. And the St
 
 Now the user will have the tree choices to make of. Rock Paper and Scissors.<br>
 This buttons are responsive to the hovering and clicking of the user.<br>
-When hovering the buttons moves slitely and changes color to look like a 3d apparence.<br>
-If one of the choices are made the responce will be seen above the buttons.<br>
-And in responce wo the choice the computer will chose randomly the wepon it choses.
+When hovering the buttons moves slightly and changes color to look like a 3d appearance.<br>
+If one of the choices are made the response will be seen above the buttons.<br>
+And in response to the choice the computer will choose randomly the weapon it chooses.
 <br>
 <br>
 
@@ -113,16 +113,16 @@ And points will be added accordingly down in the score board.
 <br>
 <br>
 
-##### The weponse Rock Paper Scissors!
+##### The weapons Rock Paper Scissors!
 
 ![Screenshot of Rock!](/assets/images/rock.png)
 ![Screenshot of Paper!](/assets/images/paper.png)
 ![Screenshot of Scissors!](/assets/images/scissors.png)
 <br>
 
-When the choice has been made one of these three imgs will appare.<br>
+When the choice has been made one of these three imgs will appear.<br>
 The user and computer both uses both the same imgs.<br>
-But in css its made that one apponent will have a mirroring hand.
+But in css its made that one opponent will have a mirroring hand.
 <br>
 <br>
 
@@ -139,17 +139,17 @@ Chose a slitely different one to get some variety.
 ##### Colors chosen for this page are..
 ![Chosen colors on the page.](/assets/images/readmimg/chosencollor.png)
 <br>
-I chose this colors so that there is a darker theam in the background while there is a colorful game on top.
+I chose this colors so that there is a darker theme in the background while there is a colorful game on top.
 <br>
 <br>
 
 ##### Features I would have wanted to have!
 - I would want to set a cap on how many games there is. Preferably the game would be first up to 10 points win.
 - Ones one has come up to 10 points the game would ask if user would want to play again.
-- I would also want to have a highscore where user would if they got good points be able to add name and be placed on the board.
-- The react time would be another thing. As the user choses an option the reaction from computer would be delayed half a sec.
+- I would also want to have a high score where user would if they got good points be able to add name and be placed on the board.
+- The reaction time would be another thing. As the user chooses an option the reaction from computer would be delayed half a sec.
 - And also the point would be added at the same time as computer choice are shown.
-- When loading the page the start button and hands will also have delayed apparence.
+- When loading the page the start button and hands will also have delayed appearance.
 <br>
 <br>
 
@@ -192,7 +192,7 @@ This is the lighthouse test I made!
     - [w3docs](https://www.w3docs.com/)
     - [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum)
     - [Slack](https://app.slack.com/)
-    - [Better Programing](https://betterprogramming.pub/)
+    - [Better Programming](https://betterprogramming.pub/)
 <br>
 The pictures are taken from: Vecteezy https://www.pinterest.se/vecteezy/
 <br>
@@ -205,7 +205,7 @@ The pictures are taken from: Vecteezy https://www.pinterest.se/vecteezy/
    2. On the left side of the screen I chose Pages.
    3. From the branch menu I chose Main.
    4. Then root.
-   5. Then I had to wait for a couple of min for the link to get online.
+   5. Then I had to wait for a couple of (min) for the link to get online.
    
    https://miswaq.github.io/rock-paper-scissors/
    <br>
