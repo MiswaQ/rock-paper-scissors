@@ -136,11 +136,43 @@ Chose a slitely different one to get some variety.
 <br>
 <br>
 
-#### Colors chosen for this page are..
+##### Colors chosen for this page are..
 ![Chosen colors on the page.](/assets/images/readmimg/chosencollor.png)
 <br>
 I chose this colors so that there is a darker theam in the background while there is a colorful game on top.
 <br>
 <br>
 
+##### Features I would have wanted to have!
+- I would want to set a cap on how many games there is. Preferably the game would be first up to 10 points win.
+- Ones one has come up to 10 points the game would ask if user would want to play again.
+- I would also want to have a highscore where user would if they got good points be able to add name and be placed on the board.
+- The react time would be another thing. As the user choses an option the reaction from computer would be delayed half a sec.
+- And also the point would be added at the same time as computer choice are shown.
+- When loading the page the start button and hands will also have delayed apparence.
+<br>
+<br>
+
+##### Testing!
+###### Human testing:
+- Tested that points always show correctly.
+- Img always show the correct one.
+- I have tested it in Opera Browser, Fire fox and Google Chrome.
+- My family have gotten to try it out and give feedback.
+<br>
+
+###### Validator testing:
+- HTML Validator - https://validator.w3.org/
+    - Validation came out with no errors.
+<br>
+
+- CSS Validator - https://jigsaw.w3.org/
+    - Validation came out with no errors.
+<br>
+
+- JS Validator - https://jshint.com/
+    - Validator came with error message "'const' is available in ES6 (use 'esversion: 6')<br>
+      or Mozilla JS extensions (use moz)". I looked it up and was told that this is not an issue but that in the future<br>
+      I need to learn to update within the settings in gitpod. And in jsHints add the esversion 6.
+      
 
