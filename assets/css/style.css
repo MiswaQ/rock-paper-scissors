@@ -122,7 +122,6 @@ body {
 
 #intro:hover {
     background-color: #7caf6a;
-    transform: translate3d(0px, -71px, 0px);
 }
 
 /* Score area. */
