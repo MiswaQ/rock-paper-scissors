@@ -15,10 +15,22 @@ The apponent would ofc just chose paper and always win.
 But against a computer if you would continue to only chose rock
 you would actually never know what the computer will chose as it
 always will chose random.
+<br>
+<br>
 
 Try it and hope you enjoy visiting this site and playing this game.
 Good luck and have fun!
 <br>
+<br>
+
+##### Rules!
+The rules of the game are simple:
+- Rock wins over: Scissors!
+- Scissors win over: Paper!
+- Paper wins over: Rock!
+  - Paper against Paper = Draw!
+  - Scissors against Scissors = Draw!
+  - Rock against Rock = Draw!
 <br>
 <br>
 
@@ -59,7 +71,7 @@ and ones clicked the game will start!
 <br>
 
 This is the score board where the user will see his/her score during the game.
-User 1 point for win Comp 1 point for lose and no points on draw.
+One point for the winner, a point to apponent if one looses and no points on draw.
 <br>
 <br>
 
