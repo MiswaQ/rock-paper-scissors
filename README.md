@@ -184,6 +184,20 @@ This is the lighthouse test I made!
 <br>
 <br>
 
+##### Credits!:
+- I have had some issues during this project but have had good places to turn for help:
+    - [w3school](https://www.w3schools.com/)
+    - [Mozilla](https://developer.mozilla.org/)
+    - [StackOverFlow](https://stackoverflow.com/)
+    - [w3docs](https://www.w3docs.com/)
+    - [Code Institute](https://learn.codeinstitute.net/ci_program/diplomainfullstacksoftwarecommoncurriculum)
+    - [Slack](https://app.slack.com/)
+    - [Better Programing](https://betterprogramming.pub/)
+<br>
+The pictures are taken from: Vecteezy https://www.pinterest.se/vecteezy/
+<br>
+<br>
+
 
       
 
