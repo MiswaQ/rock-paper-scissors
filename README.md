@@ -198,7 +198,43 @@ The pictures are taken from: Vecteezy https://www.pinterest.se/vecteezy/
 <br>
 <br>
 
+##### Deployment!
 
-      
+   #### I deployed to GitHub pages with these steps:
+   1. In the repository for rock-paper-scissors I chose Settings.
+   2. On the left side of the screen I chose Pages.
+   3. From the branch menu I chose Main.
+   4. Then root.
+   5. Then I had to wait for a couple of min for the link to get online.
+   
+   https://miswaq.github.io/rock-paper-scissors/
+   <br>
+   <br>
+
+##### If you wish to Clone my repository to help building with me.
+
+   ###### These are the steps to clone:
+   1. Go to [Repository](https://github.com/MiswaQ/rock-paper-scissors)!
+   2. Click <>Code!
+   3. Copy!
+   4. Open Terminal!
+   5. Write git clone https://github.com/MiswaQ/rock-paper-scissors.git
+
+
+   ###### Now you will download my Repository to your computer!
+<br>
+<br>
+<br>
+
+   ### Contact!
+   Contact me at:
+   <br>
+   **Email** ´MiswaQ@gmail.com´
+   <br>
+   **Skype** [Abdulrahman Zekroum Aregai](https://join.skype.com/invite/GDTp54gY6csh)
+   <br>
+   <br>
+
+#### Hope you enjoy the game! Peace!
 
 
