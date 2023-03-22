@@ -174,5 +174,17 @@ I chose this colors so that there is a darker theam in the background while ther
     - Validator came with error message "'const' is available in ES6 (use 'esversion: 6')<br>
       or Mozilla JS extensions (use moz)". I looked it up and was told that this is not an issue but that in the future<br>
       I need to learn to update within the settings in gitpod. And in jsHints add the esversion 6.
+<br>
+<br>
+
+###### Devtools LightHouse testing:
+![Screenshot of devtool LightHouse testing](/assets/images/readmimg/lighthouse.png)
+<br>
+This is the lighthouse test I made!
+<br>
+<br>
+
+
       
+
 
